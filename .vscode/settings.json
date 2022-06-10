@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "design-patterns/factory-design-pattern",
+        "design-patterns/singleton-desgin-pattern"
+    ]
+}

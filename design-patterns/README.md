@@ -2,4 +2,4 @@
 
 ## Creational Design Patterns
 1. Factory Design Pattern : https://youtu.be/tv54FY48Vio
-2. 
+2. Singleton Design Pattern: https://youtu.be/oeQWxhlnCHM
