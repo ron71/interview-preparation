@@ -81,4 +81,27 @@ Producers can choose to recieve acknowlegdment of data writes:
 ### Message Keys
 Producers can choose to send a key with a message(String, number, etc). If key=null, data is sent round robin(1st broker, then 2nd broker then 3rd broker...)
 
-If key is sent then all the messages for that key will always go to the same partion.
+If key is sent then all the messages for that key will always go to the same partition.
+![producer_message_key.png](producer_message_key.png)
+
+### Consumers
+![consumers](consumers.png)
+
+![consumers_group](consumers_group.png)
+
+![no_of_consumers](no_of_consumers.png)
+
+### Consumer Offsets
+![consumer_offset](consumer_offset.png)
+![delivery%20Semantics](delivery%20Semantics.png)
+
+### Kafka Broker Discovery
+![broker_discovery](broker_discovery.png)
+
+### Zookeeper
+![zookeeper](zookeeper.png)
+![zookeeper2](zookeeper2.png)
+
+### Kafka Guarantees
+![kafka_guarantees](kafka_guarantees.png)
+
